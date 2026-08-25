@@ -1,0 +1,64 @@
+name: HelloSafe Atlas
+description: >-
+  B2B travel-insurance distribution platform by HELLO SAFE, SAS offering a multi-insurer marketplace, quote-and-bind
+  REST API, conversion tracking, tracked deep links, and Coach pre-trip coverage-gap assessment. Exposes a public
+  OpenAPI 3.1.0 contract with HMAC-signed server-to-server endpoints.
+url: https://raw.githubusercontent.com/api-evangelist/hellosafe-atlas/refs/heads/main/apis.yml
+created: '2026-08-25'
+modified: '2026-08-25'
+specificationVersion: '0.21'
+tags:
+  - Travel Insurance
+  - Insurance
+  - Insurtech
+  - Embedded Insurance
+  - Travel
+  - Affiliate
+  - Attribution
+  - Quotes
+  - Comparison
+  - Conversion Tracking
+  - White-Label
+  - Tour Operators
+  - Travel Agencies
+  - OTAs
+  - Fintech
+apis:
+  - name: HelloSafe Travel Insurance API
+    description: >-
+      REST API for travel-insurance reference data, quoting, tracked link minting, and signed conversion postbacks. The
+      conversion postback and tracked deep links are live today; quote-and-bind travel endpoints are in private
+      beta/early access. Uses per-caller HMAC-SHA256 server-to-server authentication.
+    humanURL: https://atlas.hellosafe.com/platform/api
+    baseURL: https://atlas.hellosafe.com
+    tags:
+      - Travel Insurance
+      - Insurance
+      - Insurtech
+      - Embedded Insurance
+      - Travel
+      - Affiliate
+      - Attribution
+      - Quotes
+      - Comparison
+      - Conversion Tracking
+      - White-Label
+      - Tour Operators
+      - Travel Agencies
+      - OTAs
+      - Fintech
+    properties:
+      - type: OpenAPI
+        url: https://atlas.hellosafe.com/openapi.json
+      - type: Documentation
+        url: https://atlas.hellosafe.com/platform/api
+      - type: LLMsTxt
+        url: https://atlas.hellosafe.com/llms.txt
+maintainers:
+  - FN: HelloSafe Atlas
+    url: mailto:atlas@hellosafe.com
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 88
+  at: '2026-08-25T16:04:20.499Z'
