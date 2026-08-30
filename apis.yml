@@ -24,6 +24,22 @@ tags:
   - Insurtech
   - Embedded Insurance
   - Travel
+  - Affiliates
+  - Attribution
+  - Quotes
+  - Comparison
+  - Conversion Tracking
+  - White Label
+  - Tour Operators
+  - Travel Agencies
+  - OTAs
+  - Fintech
+tags_raw:
+  - Travel Insurance
+  - Insurance
+  - Insurtech
+  - Embedded Insurance
+  - Travel
   - Affiliate
   - Attribution
   - Quotes
@@ -43,6 +59,22 @@ apis:
     humanURL: https://atlas.hellosafe.com/platform/api
     baseURL: https://atlas.hellosafe.com
     tags:
+      - Travel Insurance
+      - Insurance
+      - Insurtech
+      - Embedded Insurance
+      - Travel
+      - Affiliates
+      - Attribution
+      - Quotes
+      - Comparison
+      - Conversion Tracking
+      - White Label
+      - Tour Operators
+      - Travel Agencies
+      - OTAs
+      - Fintech
+    tags_raw:
       - Travel Insurance
       - Insurance
       - Insurtech
